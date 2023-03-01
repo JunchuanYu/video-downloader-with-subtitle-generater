@@ -1,8 +1,6 @@
 import requests
 import json
 import ffmpeg
-import xf_mt
-import xf_lfasr
 import pysrt
 import re
 from moviepy.editor import *
@@ -14,6 +12,7 @@ import hmac
 import os
 import time
 import urllib
+from downloader import *
 from downloader.DownloaderFactory import DownloaderFactory
 
 class RequestApi(object):
